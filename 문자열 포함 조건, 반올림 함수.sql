@@ -4,5 +4,5 @@ from rest_info a ,
 from rest_review
 group by rest_id) b
 where a.rest_id = b.rest_id
-and a.address like '서울%' --서울로 시작하기 때문에 %서울% 이 아니라 서울%이어야 함.
+and a.address like '서울%' --서울로 시작하기 때문에 %서울% 이 아니라 서울%이어야 함. 서울이나 경기도 사는 사람 찾을 때 주의(서울%, 경기도%)
 order by score desc, favorites desc
