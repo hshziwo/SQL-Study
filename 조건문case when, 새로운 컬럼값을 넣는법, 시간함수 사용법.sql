@@ -17,7 +17,7 @@
 -- ELSE ‘WHEN 조건에 해당 안되는 경우 반환 값’
 -- END
 
--- 아래는 값들로 구분한 select를 unino all한 방식인데 통과는 했는데 맞는 지 잘 모르겠네...
+-- 아래는 값들로 구분한 select를 union all한 방식인데 통과는 했는데 맞는 지 잘 모르겠네...
 select car_id, '대여 가능' as availability
 from car_rental_company_rental_history
 where car_id not in (select car_id

@@ -1,6 +1,7 @@
 -- 주소 || 으로 합치는데 중간에 ' ' 공백을 넣어줘서 주소 모양 나오게 하기 결과는
 -- 성남시 분당구 정자일로 210 4동 501호 이런 모양됨
 -- (city||' '|| STREET_ADDRESS1 ||' '|| STREET_ADDRESS2) as "전체주소"
+
 -- 전화번호는 substr로 자르고 ||으로 중간에 '-' 넣어서 붙이기 결과는
 -- https://siadaddy-cordinglife.tistory.com/5
 -- 010-2203-9488 이렇게 됨

@@ -1,3 +1,7 @@
+-- 오라클에서는 month나 09등을 -> 9로 바꿀 때
+-- to_number(to_char(start_date, 'mm')) as month
+-- 이렇게 to_number로 0 빼줌
+
 -- 날짜 조건 쓸때 2022-08 ~ 2022-10 까지 내역 찾아라고 하면
 -- between 조건을 2022-11월까지 줘야 정확한 정답이 됨
 -- to_char 비교로 더 깔끔하게 하는 방법 밑에 있음
